@@ -1,0 +1,13 @@
+/* Add this CSS in your theme's style.css or your custom stylesheet */
+#elementor-panel-category-webbricks-addons .elementor-element-wrapper {
+	position: relative;
+}
+#elementor-panel-category-webbricks-addons .elementor-element-wrapper:after {
+	content: "";
+	position: absolute;
+	background-image: url('../img/wb-icon.svg');
+	width: 20px;
+	height: 14px;
+	right: 5px;
+	top: 5px;
+}
